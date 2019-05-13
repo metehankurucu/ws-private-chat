@@ -1,0 +1,29 @@
+{
+  "name": "ws-private-chat",
+  "version": "1.0.0",
+  "description": "Basic websocket private chat implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/metehankurucu/ws-private-chat.git"
+  },
+  "keywords": [
+    "websocket",
+    "chat",
+    "private"
+  ],
+  "author": "metehankurucu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metehankurucu/ws-private-chat/issues"
+  },
+  "homepage": "https://github.com/metehankurucu/ws-private-chat#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "ws": "^7.0.0"
+  }
+}
